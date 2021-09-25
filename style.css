@@ -15,21 +15,27 @@ body {
     /*align-self: baseline;*/
     padding: 0 20px;
 }
+@media (min-width: 376px) {
+    .header-container {
+        /*padding-top: 25px;*/
+        height: 100%;
+    }
+}
 
 
 header{
     width: 100%;
     box-sizing: border-box;
-    padding-top: 17px;
+    /*padding-top: 17px;*/
     height: 105px;
     background-color: white;
     box-shadow: 0 0 10px -5px rgba(0,0,0,0.5);
 }
 
-@media (min-width: 376px) {
+@media (min-width: 390px) {
     header {
         height: 80px;
-        padding-top: 25px;
+        /*padding-top: 25px;*/
     }
 }
 
@@ -58,14 +64,14 @@ header{
 }
 
 .logo {
-    padding: 0 0 11px 0;
+    padding: 17px 0 11px 0;
     order: -1;
 }
 
 @media (min-width: 390px) {
     .logo {
        order: 0;
-        padding: 0;
+        padding: 17px 0 17px 0;
     }
 }
 
@@ -79,9 +85,33 @@ header{
         /*display: none;*/
     }
 }
+@media (min-width: 700px) {
+    .account-mini {
+        display: none;
+    }
+}
 
 .account {
     display: none;
+}
+
+@media (min-width: 700px) {
+    .account {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 19px;
+        border-left: 1px solid #EBEBF1;
+        height: 100%;
+    }
+}
+
+.account-text {
+    font-size: 14px;
+    color: #768298;
+    line-height: 17px;
+    font-weight: 400;
+    padding-right: 10px;
 }
 
 .rectangle {
@@ -92,7 +122,7 @@ header{
     background-color: #BBC4D6;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 390px) {
     .rectangle {
         height: 0;
     }
