@@ -68,7 +68,7 @@ header{
 
 .content-header {
     font-size: 28px;
-    line-height: 44.8px;
+    line-height: 45px;
     font-weight: 500;
     text-transform: uppercase;
     padding-top: 70px;
@@ -80,6 +80,7 @@ header{
     padding-top: 30px;
     display: flex;
     flex-flow: row wrap;
+    flex: 1;
     /*height: 140px;*/
     justify-content: space-between;
     align-items: center;
@@ -91,6 +92,7 @@ header{
     margin-bottom: 20px;
     cursor: pointer;
     height: 140px;
+    /*width: 335px;*/
     border-radius: 5px;
 }
 
