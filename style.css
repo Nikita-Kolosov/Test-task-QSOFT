@@ -52,6 +52,8 @@ header{
     width: 100%;
     margin-left: 9px;
     padding: 0;
+    outline: none !important;
+
 }
 
 .search {
@@ -79,6 +81,7 @@ header{
 .logo {
     padding: 17px 0 11px 0;
     order: -1;
+    cursor: pointer;
 }
 
 @media (min-width: 390px) {
@@ -116,6 +119,7 @@ header{
         padding-left: 19px;
         border-left: 1px solid #EBEBF1;
         height: 100%;
+        cursor: pointer;
     }
 }
 
